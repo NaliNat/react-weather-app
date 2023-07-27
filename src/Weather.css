@@ -47,3 +47,16 @@
   position: relative;
   top: -14px;
 }
+
+.Weather .WeatherTemperature a {
+  text-decoration: none;
+  color: rgba(221, 51, 68, 0.747);
+}
+
+.Weather .WeatherTemperature a:hover {
+  text-decoration: underline;
+}
+
+.Weather .max {
+  font-weight: bold;
+}

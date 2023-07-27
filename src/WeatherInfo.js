@@ -34,7 +34,7 @@ export default function WeatherInfo(props) {
             <li>Humidity: {props.info.humidity}%</li>
             <li>Wind: {props.info.wind} km/h</li>
             <li>
-              {Math.round(props.info.temp_max)}°{" "}
+              <span className="max">{Math.round(props.info.temp_max)}°</span>{" "}
               {Math.round(props.info.temp_min)}°
             </li>
           </ul>
